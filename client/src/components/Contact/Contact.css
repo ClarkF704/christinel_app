@@ -1,0 +1,27 @@
+.contactImg{
+    width:auto;
+    height:200px;
+    outline-style:solid;
+    outline-color:#45a29d;
+    float:right;
+}
+
+@media only screen and (max-width: 990px) {
+    .contactImg{
+        height:180px;
+    }
+  }
+  @media only screen and (max-width: 765px) {
+    .contactImg{
+        height:100px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    .contactImg{
+        height:180px;
+        margin-top:15px;
+        margin-right:10px;
+    }
+  }

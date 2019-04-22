@@ -1,0 +1,28 @@
+.photo{
+    width:1100px;
+    height:auto;
+    outline-style: solid;
+    outline-color:#45a29d;
+    text-align:center;
+}
+
+@media only screen and (max-width: 1198px) {
+    .photo {
+      width:900px;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+    .photo {
+      width:600px;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .photo {
+      width:400px;
+    }
+  }
+  /* @media only screen and (max-width: 500px) {
+    .photo {
+      width:200px;
+    }
+  } */
